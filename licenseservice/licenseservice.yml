@@ -1,0 +1,15 @@
+management.endpoints.web.exposure.include: "*"
+management.endpoints.web.exposure.exclude: "env"
+example.property: "I AM IN THE DEFAULT"
+#PostgreSQL Configuration
+spring.jpa.database: "POSTGRESQL"
+spring.datasource.platform: "postgres"
+spring.datasource.url: "jdbc:postgresql://localhost:5432/hibernatedb"
+spring.datasource.username: "postgres"
+spring.datasource.password: "data"
+spring.jpa.show-sql: "true"
+spring.datasource.initialization-mode: "always"
+spring.jpa.generate-ddl: "true"
+#spring.jpa.hibernate.ddl-auto:create-drop
+#spring.jpa.properties.hibernate.dialect:"org.hibernate.dialect.PostgreSQLDialect"
+spring.jpa.properties.hibernate.jdbc.lob.non_contextual_creation: "true"
