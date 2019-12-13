@@ -4,7 +4,7 @@ example.property: "I AM IN THE DEFAULT"
 #PostgreSQL Configuration
 spring.jpa.database: "POSTGRESQL"
 spring.datasource.platform: "postgres"
-spring.datasource.url: "jdbc:postgresql://database:5432/hibernatedb"
+spring.datasource.url: "jdbc:postgresql://127.0.0.1:5432/hibernatedb"
 spring.datasource.username: "postgres"
 spring.datasource.password: "{cipher}6611bf54d19887241d084075407d586ce0c87c06db121e7b0f45936600d424ad"
 spring.jpa.show-sql: "true"
